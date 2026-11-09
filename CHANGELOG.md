@@ -4,7 +4,7 @@ Each meaningful change must update this file before synchronization. Released ve
 
 ## Unreleased
 
-### Added �� 2026-11-09
+### Added — 2026-11-09
 
 - Defined the first release around Windows media controls and Apple Music line-synchronized lyrics.
 - Recorded the Rust/egui approach, selective Daozai migration, fixed source revisions, and Apple Music cache feasibility.

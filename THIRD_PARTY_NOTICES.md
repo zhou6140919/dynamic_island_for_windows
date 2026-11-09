@@ -19,7 +19,7 @@ For every future substantive copy or port, add:
 - Modifications and any vendored dependency patches needed.
 - Location of the retained full license text and required distribution notices.
 
-Daozai's original code is MIT-licensed with copyright attributed to С�Ƶ�Token and Daozai contributors. Preserve its actual license text when importing covered material.
+Daozai's original code is MIT-licensed with copyright attributed to 小唐的Token and Daozai contributors. Preserve its actual license text when importing covered material.
 
 The Apple Music reference includes separately MPL-2.0-covered LyricsKit-derived provider files. Check its pinned [THIRD_PARTY_NOTICES.md](https://github.com/BeteixZ/floating-lyrics-wam/blob/c07b86b1f2fd1da1f510410519a18a510dbd6cd3/THIRD_PARTY_NOTICES.md) before any port; do not relicense those files as MIT.
 

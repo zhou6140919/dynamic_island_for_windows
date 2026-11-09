@@ -1,6 +1,6 @@
 # Project instructions
 
-This project is windows�鶯��: a high-quality Windows desktop island. The first accepted product is a music island with reliable Apple Music controls and lyrics. Read README.md and docs/DEVELOPMENT_PLAN.zh-CN.md before implementation.
+This project is windows灵动岛: a high-quality Windows desktop island. The first accepted product is a music island with reliable Apple Music controls and lyrics. Read README.md and docs/DEVELOPMENT_PLAN.zh-CN.md before implementation.
 
 ## Scope and design
 

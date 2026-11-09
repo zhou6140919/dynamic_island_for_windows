@@ -35,7 +35,7 @@ Live tests are opt-in and must not run in normal CI. They may change playback; i
 | Timing | Pause for 15 seconds, resume | Lyrics stay still while paused and resume at actual playback position |
 | Timing | Seek forward/back in the player; single-track repeat | Current line follows the corrected timeline without accumulated drift |
 | Timing | Playback-rate change or stale timeline sample | Apply actual rate when usable; re-anchor or degrade safely |
-| Races | Rapidly switch A �� B �� C; A's fetch finishes last | Only C's lyrics may be applied |
+| Races | Rapidly switch A → B → C; A's fetch finishes last | Only C's lyrics may be applied |
 | Network | Offline, 404, 429, slow response, HTML error body | Correct state and bounded retry; no permanent negative cache for transient failure |
 | Network | External lookup disabled | No external lyric or catalog requests; local controls and cache still work |
 | Fallback | Plain-only lyrics, instrumental, no result | Distinct states; plain text never presented as synchronized |
@@ -57,4 +57,4 @@ Live tests are opt-in and must not run in normal CI. They may change playback; i
 
 ## Recording evidence
 
-For each implementation PR, record commands, result, OS/build, Apple Music version, test date, and any skipped cases with their reason. Keep personal metadata and lyric text local. Public test summaries should use anonymous case labels and authored fixtures. A release cannot say ��Apple Music tested�� when only mocks were used.
+For each implementation PR, record commands, result, OS/build, Apple Music version, test date, and any skipped cases with their reason. Keep personal metadata and lyric text local. Public test summaries should use anonymous case labels and authored fixtures. A release cannot say “Apple Music tested” when only mocks were used.
