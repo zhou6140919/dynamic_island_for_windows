@@ -1,0 +1,30 @@
+# Rust build output
+/target/
+/artifacts/
+/dist/
+
+# Local research, player data, and diagnostics
+/.research/
+/.local/
+/diagnostics/
+/test-results/
+/test-data/private/
+*.log
+*.dmp
+ttmlLyrics*.json
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Editor / operating-system state
+/.idea/
+/.vs/
+Thumbs.db
+Desktop.ini
+*.swp
